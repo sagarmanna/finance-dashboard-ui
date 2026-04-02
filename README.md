@@ -1,26 +1,27 @@
 # 💰 Finance Dashboard UI
 
+🚀 **Live Demo:** https://vercel.com/sagars-projects-0fe093eb/finance-dashboard-ui/GXttBnoX21ZNYR5GtJpaxfBaa56S
+
 ## 📌 Overview
 
-This project is a **Finance Dashboard UI** built as part of a frontend internship assignment.
-It allows users to **track, visualize, and analyze financial data** through an intuitive and responsive interface.
+This project is a **Finance Dashboard UI** built as part of a frontend internship assignment. It enables users to **track, visualize, and analyze financial data** through a clean and interactive interface.
 
-The focus of this project is on:
+The goal of this project is to demonstrate:
 
-* Clean UI/UX design
-* Component-based architecture
-* State management
-* Data visualization
+* Strong **frontend development skills**
+* Clean **UI/UX design principles**
+* Effective **state management**
+* Data-driven **visualization techniques**
 
 ---
 
 ## 🚀 Tech Stack
 
-* **React.js** (Frontend Framework)
-* **Tailwind CSS** (Styling)
-* **Recharts** (Data Visualization)
-* **Context API** (State Management)
-* **LocalStorage** (Data Persistence)
+* **React.js** – Component-based frontend framework
+* **Tailwind CSS** – Utility-first styling
+* **Recharts** – Data visualization (charts)
+* **Context API** – State management
+* **LocalStorage** – Data persistence
 
 ---
 
@@ -80,19 +81,19 @@ npm run dev
 
 * Displays **Total Balance, Income, and Expenses**
 * 📈 Line chart for financial trends over time
-* 🥧 Pie chart for spending breakdown by category
+* 🥧 Pie chart for category-wise spending breakdown
 
 ---
 
 ### 💳 Transactions Management
 
-* View transaction list (date, amount, category, type)
-* 🔍 Search and filter transactions
+* View transactions with **date, amount, category, and type**
+* 🔍 Search and filter functionality
 * 📂 Category-based filtering
 * 🔃 Sorting (latest / amount)
-* ➕ Add transactions (Admin only)
-* ❌ Delete transactions (Admin only)
-* 📁 Export transactions as CSV
+* ➕ Add transactions (**Admin only**)
+* ❌ Delete transactions (**Admin only**)
+* 📁 Export data as **CSV**
 
 ---
 
@@ -103,7 +104,7 @@ npm run dev
   * Read-only access
 * **Admin**
 
-  * Can add and delete transactions
+  * Can add and manage transactions
 
 ---
 
@@ -111,33 +112,48 @@ npm run dev
 
 * Top spending category
 * Monthly comparison (current vs previous)
-* Total transactions
-* Smart insights based on spending trends
+* Total transaction count
+* Dynamic spending insights
 
 ---
 
 ## ⚡ State Management
 
-* Managed using **React Context API**
-* Handles:
+Implemented using **React Context API** to manage:
 
-  * Transactions data
-  * Filters & search
-  * User role (Admin / Viewer)
-  * UI states
+* Transactions data
+* Filters & search state
+* User role (Admin / Viewer)
+* UI behavior
 
 ---
 
-## 🎨 UI/UX Features
+## 🎨 UI/UX Highlights
 
 * Clean and modern dashboard layout
-* Responsive design (mobile + desktop)
+* Fully responsive design (mobile + desktop)
 * Reusable UI components:
 
   * Button
   * Input
   * Card
   * EmptyState
-* Proper spacing, typography, and color usage
+* Clear typography and spacing
+* Color-coded financial indicators (income/expense)
+
+
+
+## 🧠 Approach
+
+The application follows a **component-driven architecture**, focusing on:
+
+* Reusability and modularity
+* Separation of concerns
+* Scalable and maintainable code
+
+State is centralized using Context API to ensure **efficient data flow** across components.
 
 ---
+
+
+
