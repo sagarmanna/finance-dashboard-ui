@@ -1,6 +1,6 @@
 # 💰 Finance Dashboard UI
 
-🚀 **Live Demo:** https://vercel.com/sagars-projects-0fe093eb/finance-dashboard-ui/GXttBnoX21ZNYR5GtJpaxfBaa56S
+🚀 **Live Demo:** https://finance-dashboard-ui-chi.vercel.app
 
 ## 📌 Overview
 
